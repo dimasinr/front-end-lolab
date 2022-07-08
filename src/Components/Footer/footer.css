@@ -1,0 +1,21 @@
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
+    padding: 3rem 1rem;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+.noes>li{
+    text-decoration: none;
+}
+
+.mobile-app-store{
+    height: 40px;
+    width: 120px;
+}

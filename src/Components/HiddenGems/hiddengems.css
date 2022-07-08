@@ -1,0 +1,33 @@
+.star-hidden-gems{
+    height: 17px;
+    width: 17px;
+    color: #02979d;
+}
+.img-hidden-gems{
+    height: 145px;
+    width: 241px;
+}
+@media screen and (max-width: 780px) {
+    .img-hidden-gems{
+        height: 145px;
+        width: 136px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .img-hidden-gems{
+        height: 145px;
+        width: 449px;
+    }
+}
+@media screen and (max-width: 490px) {
+    .img-hidden-gems{
+        height: 145px;
+        width: 312px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .img-hidden-gems{
+        height: 145px;
+        width: 235px;
+    }
+}

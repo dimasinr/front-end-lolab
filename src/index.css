@@ -5,9 +5,107 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(248, 248, 248);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.mr-1{
+  margin-right: 10px;
+}
+
+.mr-2{
+  margin-right: 20px;
+}
+
+.mr-3{
+  margin-right: 30px;
+}
+
+.mr-4{
+  margin-right: 40px;
+}
+
+.slick-prev {
+  left: -1% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: -1% !important;
+  z-index: 1;
+}
+.shadow-card{
+  box-shadow: -1px 5px 6px -1px rgba(167, 167, 167, 0.38);
+  -webkit-box-shadow: -1px 5px 6px -1px rgba(146, 146, 146, 0.38);
+  -moz-box-shadow: -1px 5px 6px -1px rgba(166, 166, 166, 0.38);
+}
+.shadow-card:hover{
+  box-shadow: -1px 5px 6px -1px rgba(58, 58, 58, 0.38);
+  -webkit-box-shadow: -1px 5px 6px -1px rgba(35, 35, 35, 0.38);
+  -moz-box-shadow: -1px 5px 6px -1px rgba(25, 25, 25, 0.38);
+}
+.btn-show-all{
+  background-color: #25979D;
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 25px;
+  height: 40px;
+  width: 120px;
+}
+.btn-show-all:hover{
+  background-color: #31b8bf;
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 25px;
+  height: 40px;
+  width: 120px;
+}
+.btn-location-all{
+  background-color: #25979D;
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  height: 40px;
+  width: 180px;
+}
+.btn-location-all:hover{
+  background-color: #31b8bf;
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  height: 40px;
+  width: 180px;
+}
+.--search{
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 10px;
+  width: 75%;
+  height: 40px;
+  font-weight: 500;
+}
+.unlink{
+  text-decoration: none;
+  color: black;
+}
+.unlink:hover{
+  text-decoration: none;
+  color: black;
+}
+.img-rounded{
+  border-radius: 10px;
+}
+.card-rounded{
+  border-radius: 10px;
+  /* border: none; */
 }

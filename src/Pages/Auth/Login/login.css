@@ -1,0 +1,149 @@
+.emblem{
+    display: flex;
+    position: absolute;
+    margin-top: -270px;
+    height: 400px;
+    width: 400px;
+}
+
+header-login{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-image: url(./../../../Components//img//svg//wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 105vh;
+}
+
+.login-between{
+    justify-content: space-around;
+}
+
+.form-log{
+    display: flex;
+    height: 280px;
+    margin-top: -240px;
+    background-color: white;
+}
+
+.form-log:hover{
+    display: flex;
+    height: 280px;
+    margin-top: -240px;
+    background-color: white;
+}
+
+.form-reg{
+    display: flex;
+    height: 580px;
+    margin-top: -240px;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.form-reg:hover{
+    display: flex;
+    height: 580px;
+    margin-top: -240px;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.ml-login{
+    margin-left: 15px;
+    margin-top: -70px;
+}
+
+.login-btn{
+    background-color: #0cb0b6;
+    color: white;
+    font-weight: 400;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.login-btn:hover{
+    background-color: #11c6cd;
+    color: white;
+    font-weight: 400;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.align-content-end{
+    align-content: flex-end;
+}
+
+/* Mobile 320px */
+
+@media (min-width: 320px){
+.emblem{
+    display: flex;
+    height: 180px;
+    z-index: -12;
+    width: 180px;
+    margin-top: -90px;
+}
+
+.form-log{
+    margin-top: -15px;
+}
+
+.form-log:hover{
+    margin-top: -15px;
+}
+
+.form-reg{
+    margin-top: -15px;
+}
+
+.form-reg:hover{
+    margin-top: -15px;
+}
+
+}
+
+/* Mobile 720px */
+
+@media (min-width: 750px){
+.emblem{
+    display: flex;
+    z-index: -12;
+    height: 270px;
+    width: 270px;
+    margin-top: -90px;
+}
+}
+
+/* Desktop */
+
+@media (min-width: 1240px){
+.emblem{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin-top: -240px;
+}
+
+.form-log{
+    margin-top: -215px;
+}
+
+.form-log:hover{
+    margin-top: -215px;
+}
+
+.form-reg{
+    margin-top: -235px;
+}
+
+.form-reg:hover{
+    margin-top: -235px;
+}
+}
